@@ -55,7 +55,7 @@
 $(function() {
     Org.Logo
     .setCookies('{{$cookies}}')
-    .setFlashUrl('{{$smarty.const.PROTOCOL}}//{{$admin.orgid}}.tudu.com{{$basepath}}/images/swfupload.swf')
+    .setFlashUrl('{{$options.sites.static}}/images/swfupload.swf')
     .init();
 });
 -->
